@@ -1,0 +1,132 @@
+/*
+ Ingeschoten door EF2 B.V. - www.ef2.nl
+ Doeltreffende communicatie
+ Prima samenspel van Kees, Simon en Diederick
+ Hoewel wij de makers zijn, rusten de rechten bij onze klant.
+*/
+/* 
+    Created on : 25-okt-2017, 13:19:55
+    Author     : keescornelisse1
+*/
+body.path-node .ui-widget {
+    font-family: Verdana, sans-serif;
+}
+body.path-node .ui-widget-overlay {
+    background: #fff;
+    opacity: 0.9;
+}
+body.path-node .ui-dialog, body.path-node .ui-widget.ui-widget-content {
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: 0px 0px 200px 3px rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s;
+    padding: 60px 3vw;
+}
+body.path-node .ui-dialog:after {
+    background: #e30613;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #e30613), color-stop(100%, #ed6d05));
+    background: linear-gradient(to right, #e30613 0%, #ed6d05 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e30613', endColorstr='#ed6d05', GradientType=1 );
+    content: '';
+    width: 100%;
+    height: 6px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+body.path-node .ui-dialog .ui-dialog-titlebar {
+    background: transparent;
+    border: 0 none;
+    padding-bottom: 20px;
+}
+body.path-node .ui-dialog .ui-dialog-title {
+    font-size: 30px;
+    color: #8e1315;
+    overflow: visible;
+    font-family: "Titillium Web", sans-serif;
+}
+body.path-node .ui-dialog .ui-dialog-titlebar-close {
+    top: -20px;
+    right: -2vw;
+    padding: 20px;
+}
+body.path-node .ui-dialog .ui-dialog-buttonpane {
+    background: transparent;
+    border: 0 none;
+}
+body.path-node .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    float: left;
+    width: 100%;
+}
+body.path-node .ui-dialog .form-item input {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-family: "Titillium Web", sans-serif;
+    border-radius: 2px;
+    border: 1px solid #e6e6e6;
+}
+body.path-node .ui-dialog .form-item input:focus {
+    outline: 1px solid #a6a6a6;
+}
+body.path-node .ui-dialog .form-item {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+body.path-node .ui-dialog .form-item input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #706f6f;
+}
+body.path-node .ui-dialog .form-item input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #706f6f;
+   opacity:  1;
+}
+body.path-node .ui-dialog .form-item input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #706f6f;
+   opacity:  1;
+}
+body.path-node .ui-dialog .form-item input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #706f6f;
+}
+body.path-node .ui-dialog .form-item input::-ms-input-placeholder { /* Microsoft Edge */
+   color: #706f6f;
+}
+body.path-node .ui-button:hover .ui-icon, 
+body.path-node .ui-button:focus .ui-icon, 
+body.path-node .ui-button .ui-icon {
+    background: transparent url('../images/icon-close.png') center center no-repeat;
+    background-size: cover;
+    width: 14px;
+    height: 14px;
+}
+
+body.path-node .ui-dialog .form-item label {
+    display: none;
+}
+body.path-node .ui-dialog .ui-dialog-buttonpane button {
+    width: 100%;
+    background-color: #e30613;
+    font-family: "Titillium Web", sans-serif;
+    color: #fff;
+    padding: 15px 20px;
+    border: 0 none;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+body.path-node .ui-dialog p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #706f6f;
+    margin-bottom: 20px;
+}
+body.path-node .ui-dialog .messages {
+    margin-bottom: 15px;
+    margin-left: 8px;
+    box-shadow: -8px 0 0 #e30613;
+}
+
+
+
+

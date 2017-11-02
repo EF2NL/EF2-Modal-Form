@@ -1,0 +1,17 @@
+ef2_modal_form.form:
+  path: '/admin/config/example_form'
+  defaults:
+    _form: 'Drupal\ef2_modal_form\Form\ExampleForm'
+    _title: 'Example Form'
+  requirements:
+    _permission: 'administer site configuration'
+
+ef2_modal_form.open_modal_form:
+  path: '/download/{fileId}/{fileName}'
+  defaults:
+    _title: 'Modal Form'
+    _controller: '\Drupal\ef2_modal_form\Controller\Ef2ModalFormController::openModalForm'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: TRUE

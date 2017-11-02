@@ -1,0 +1,8 @@
+<?php
+
+
+define('EF2_MODAL_FORM_WEBFORM_ID', 'download_bestand_inzendingen');
+
+function ef2_modal_form_preprocess_page(array &$attachments) {
+
+}

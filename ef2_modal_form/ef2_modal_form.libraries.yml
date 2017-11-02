@@ -1,0 +1,13 @@
+global-css:
+  css:
+    theme:      
+      css/modal.css: { weight: 50 }
+global-js:
+  js:
+    js/modal.js: {}
+  dependencies:
+   - core/drupal
+   - core/jquery
+   - core/jquery.once
+   - core/drupal.ajax
+   - core/drupal.dialog.ajax
